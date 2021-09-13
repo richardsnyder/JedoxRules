@@ -1,0 +1,22 @@
+################################################
+## Jedox Web - Rule Editor Export
+## v20.3.2
+## Definition;Comment;Query;Template;Active;Extern ID;Timestamp
+################################################
+['FMth','Item'] = PALO.DATA("PAS-FINANCIALS","#_Period","Forecast Version",PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","Period"));Derive Month Name;;;1;;26.10.2017. 09:50:37 am
+['Period Value','ItemN'] = VALUE(MID(PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","Period"),2,2)); MID(PALO.DATA("DEV", "#_Parameter", "Item", "Period"), 2, 2);;;1;;26.10.2017. 09:50:37 am
+['PrevYear','Item'] = PALO.DATA("PAS-FINANCIALS","#_FYear","Previous Year",PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","CurrYear"));;;;1;;26.10.2017. 09:50:37 am
+['PrevYearETL','Item'] = PALO.DATA("PAS-FINANCIALS","#_FYear","Previous Year",PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","CurrYearETL"));;;;1;;26.10.2017. 09:50:37 am
+['NextYearETL','Item'] = PALO.DATA("PAS-FINANCIALS","#_FYear","Next",PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","CurrYearETL"));;;;1;;26.10.2017. 09:50:37 am
+['Week','ItemN'] = VALUE(MID(PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","Week"),3,2));;;;1;;26.10.2017. 09:50:37 am
+['Retail Actualise Week','Item'] = B:PALO.DATA("PAS-FINANCIALS","#_Week","Retail Actualise Week",PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","Week"));;;;1;;26.10.2017. 09:50:37 am
+['Retail Actualise Week','ItemN'] = VALUE(MID(PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","Retail Actualise Week"),3,2));;;;1;;26.10.2017. 09:50:37 am
+['Retail Forecast Week','Item'] = B:PALO.DATA("PAS-FINANCIALS","#_Week","Retail Forecast Week",PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","Week"));;;;1;;26.10.2017. 09:50:37 am
+['Retail Pay Week','ItemN'] = IF(PALO.DATA("PAS-FINANCIALS","#_Parameter","ItemN","Week") == 1,52,PALO.DATA("PAS-FINANCIALS","#_Parameter","ItemN","Week") - 1);;;;0;;26.10.2017. 09:50:37 am
+['Parameter':'Retail Pay Week','Item'] = PALO.DATA("PAS-FINANCIALS","#_PayDate","Retail Pay Week",PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","Week"));;;;0;;26.10.2017. 09:50:37 am
+['Retail Forecast Week','ItemN'] = VALUE(MID(PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","Retail Forecast Week"),3,2));;;;1;;26.10.2017. 09:50:37 am
+['Retail Forecast Version','Item'] = B:PALO.DATA("PAS-FINANCIALS","#_Week","Retail Forecast Version",PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","Week"));;;;1;;26.10.2017. 09:50:37 am
+['Retail ETL Forecast','Item'] = B:PALO.DATA("PAS-FINANCIALS","#_Week","Retail ETL Forecast",PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","Week"));;;;1;;22.12.2020. 02:57:36 pm
+['Parameter':'Current Period ETL','#_Parameter_':'Item'] = PALO.EPARENT("PAS-FINANCIALS","Week",['Parameter':'Week'],2);;;;0;;13.11.2017. 04:03:56 pm
+['Prior Period ETL','Item'] = PALO.DATA("PAS-FINANCIALS","#_Period","Prev",PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","Current Period ETL"));;;;1;;13.11.2017. 04:05:23 pm
+['Parameter':'Prior Period Year ETL','#_Parameter_':'Item'] = IF(PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","Prior Period ETL",!'#_LANGUAGE') == "P12",PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","PrevYearETL",!'#_LANGUAGE'),PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","Financial Year ETL",!'#_LANGUAGE'));;;;1;;27.06.2018. 10:10:23 am

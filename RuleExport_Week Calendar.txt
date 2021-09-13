@@ -1,0 +1,7 @@
+################################################
+## Jedox Web - Rule Editor Export
+## v20.3.2
+## Definition;Comment;Query;Template;Active;Extern ID;Timestamp
+################################################
+['WeekStart'] = B:IF(PALO.DATA("PAS-FINANCIALS","Week Calendar",!'FYear',!'Week',"WeekStartXL") == "",0,['WeekStartXL'] - 25569);;;;1;;22.01.2015. 02:18:46 pm
+['WeekEnd'] = B:IF(PALO.DATA("PAS-FINANCIALS","Week Calendar",!'FYear',!'Week',"WeekEndXL") == "",0,['WeekEndXL'] - 25569);;;;1;;22.01.2015. 02:18:46 pm

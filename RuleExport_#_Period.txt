@@ -1,0 +1,11 @@
+################################################
+## Jedox Web - Rule Editor Export
+## v20.3.2
+## Definition;Comment;Query;Template;Active;Extern ID;Timestamp
+################################################
+['Actual Period','Jun YTG'] = 0;;;;1;;26.10.2017. 09:50:37 am
+['Actual Period'] = B:IF(['Period Value'] <= PALO.DATA("PAS-FINANCIALS","#_Parameter","ItemN","Period Value"),1,0);Used in the ETL for rolling over parameters;;;1;;26.10.2017. 09:50:37 am
+['Actual Period'] = C:0;;;;1;;26.10.2017. 09:50:37 am
+['Period Value'] = C:0;;;;1;;26.10.2017. 09:50:37 am
+['Period Calendar'] = C:0;;;;1;;26.10.2017. 09:50:37 am
+['Period Calendar to FYear'] = C:0;;;;1;;26.10.2017. 09:50:37 am

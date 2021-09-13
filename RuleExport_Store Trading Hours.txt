@@ -1,0 +1,6 @@
+################################################
+## Jedox Web - Rule Editor Export
+## v20.3.2
+## Definition;Comment;Query;Template;Active;Extern ID;Timestamp
+################################################
+['Total Trading Hrs'] = B:(['Closing Time XL'] - ['Opening Time XL']) * 24;;;;1;;04.03.2016. 09:17:46 am

@@ -1,0 +1,63 @@
+################################################
+## Jedox Web - Rule Editor Export
+## v20.3.2
+## Definition;Comment;Query;Template;Active;Extern ID;Timestamp
+################################################
+['LY - New','Var to Last Year 2016'] = STET();;;;1;;01.07.2019. 04:06:28 pm
+['LY - Closed','Var to Last Year 2016'] = STET();;;;1;;01.07.2019. 04:06:28 pm
+['LY - Comp','Var to Last Year 2016'] = STET();;;;1;;01.07.2019. 04:06:28 pm
+['LY - Non-Comp','Var to Last Year 2016'] = STET();;;;1;;01.07.2019. 04:06:28 pm
+['Contribution % of Net Sales'] = ['Contribution'] / ['Net Sales'];;;;1;;01.07.2019. 04:06:28 pm
+['Gross Profit % of Net Sales'] = ['Gross Profit'] / ['Net Sales'];;;;1;;01.07.2019. 04:06:28 pm
+['Contribution Margin % of Net Sales'] = ['Contribution Margin'] / ['Net Sales'];;;;1;;01.07.2019. 04:06:28 pm
+['Employee Costs % of Net Sales'] = ['Employee Costs'] / ['Net Sales'];;;;1;;01.07.2019. 04:06:28 pm
+['Property Costs % of Net Sales'] = ['Property Costs'] / ['Net Sales'];;;;1;;01.07.2019. 04:06:28 pm
+['Other Costs % of Net Sales'] = ['Other Costs'] / ['Net Sales'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - New','Var to Last Year 2022'] = ['CY - New','FYear':'2022'] - ['LY - New','FYear':'2021'];;;;1;;05.07.2021. 11:49:28 am
+['CY - Non-Comp','Var to Last Year 2022 %'] = (['CY - Non-Comp','FYear':'2022'] - ['LY - Non-Comp','FYear':'2021']) / ['LY - Non-Comp','FYear':'2021'];;;;1;;05.07.2021. 11:52:05 am
+['CY - Closed','Var to Last Year 2022 %'] = (['CY - Closed','FYear':'2022'] - ['LY - Closed','FYear':'2021']) / ['LY - Closed','FYear':'2021'];;;;1;;05.07.2021. 11:51:49 am
+['CY - Comp','Var to Last Year 2022 %'] = (['CY - Comp','FYear':'2022'] - ['LY - Comp','FYear':'2021']) / ['LY - Comp','FYear':'2021'];;;;1;;05.07.2021. 11:51:30 am
+['CY - New','Var to Last Year 2022 %'] = (['CY - New','FYear':'2022'] - ['LY - New','FYear':'2021']) / ['LY - New','FYear':'2021'];;;;1;;05.07.2021. 11:51:11 am
+['CY - Non-Comp','Var to Last Year 2022'] = ['CY - Non-Comp','FYear':'2022'] - ['LY - Non-Comp','FYear':'2021'];;;;1;;05.07.2021. 11:50:42 am
+['CY - Comp','Var to Last Year 2022'] = ['CY - Comp','FYear':'2022'] - ['LY - Comp','FYear':'2021'];;;;1;;05.07.2021. 11:50:20 am
+['CY - Closed','Var to Last Year 2022'] = ['CY - Closed','FYear':'2022'] - ['LY - Closed','FYear':'2021'];;;;1;;05.07.2021. 11:49:58 am
+['CY - New','Var to Last Year 2021'] = ['CY - New','FYear':'2021'] - ['LY - New','FYear':'2020'];;;;1;;29.06.2020. 04:01:59 pm
+['CY - Closed','Var to Last Year 2021'] = ['CY - Closed','FYear':'2021'] - ['LY - Closed','FYear':'2020'];;;;1;;29.06.2020. 04:02:20 pm
+['CY - Comp','Var to Last Year 2021'] = ['CY - Comp','FYear':'2021'] - ['LY - Comp','FYear':'2020'];;;;1;;29.06.2020. 04:02:42 pm
+['CY - Non-Comp','Var to Last Year 2021'] = ['CY - Non-Comp','FYear':'2021'] - ['LY - Non-Comp','FYear':'2020'];;;;1;;29.06.2020. 04:03:08 pm
+['CY - New','Var to Last Year 2021 %'] = (['CY - New','FYear':'2021'] - ['LY - New','FYear':'2020']) / ['LY - New','FYear':'2020'];;;;1;;29.06.2020. 04:03:36 pm
+['CY - Comp','Var to Last Year 2021 %'] = (['CY - Comp','FYear':'2021'] - ['LY - Comp','FYear':'2020']) / ['LY - Comp','FYear':'2020'];;;;1;;29.06.2020. 04:04:01 pm
+['CY - Non-Comp','Var to Last Year 2021 %'] = (['CY - Non-Comp','FYear':'2021'] - ['LY - Non-Comp','FYear':'2020']) / ['LY - Non-Comp','FYear':'2020'];;;;1;;29.06.2020. 04:04:25 pm
+['CY - Closed','Var to Last Year 2021 %'] = (['CY - Closed','FYear':'2021'] - ['LY - Closed','FYear':'2020']) / ['LY - Closed','FYear':'2020'];;;;1;;29.06.2020. 04:04:45 pm
+['CY - New','Var to Last Year 2020'] = ['CY - New','FYear':'2020'] - ['LY - New','FYear':'2019'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Closed','Var to Last Year 2020'] = ['CY - Closed','FYear':'2020'] - ['LY - Closed','FYear':'2019'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Comp','Var to Last Year 2020'] = ['CY - Comp','FYear':'2020'] - ['LY - Comp','FYear':'2019'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Non-Comp','Var to Last Year 2020'] = ['CY - Non-Comp','FYear':'2020'] - ['LY - Non-Comp','FYear':'2019'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - New','Var to Last Year 2020 %'] = (['CY - New','FYear':'2020'] - ['LY - New','FYear':'2019']) / ['LY - New','FYear':'2019'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Comp','Var to Last Year 2020 %'] = (['CY - Comp','FYear':'2020'] - ['LY - Comp','FYear':'2019']) / ['LY - Comp','FYear':'2019'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Non-Comp','Var to Last Year 2020 %'] = (['CY - Non-Comp','FYear':'2020'] - ['LY - Non-Comp','FYear':'2019']) / ['LY - Non-Comp','FYear':'2019'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Closed','Var to Last Year 2020 %'] = (['CY - Closed','FYear':'2020'] - ['LY - Closed','FYear':'2019']) / ['LY - Closed','FYear':'2019'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - New','Var to Last Year 2019'] = ['CY - New','FYear':'2019'] - ['LY - New','FYear':'2018'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Closed','Var to Last Year 2019'] = ['CY - Closed','FYear':'2019'] - ['LY - Closed','FYear':'2018'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Comp','Var to Last Year 2019'] = ['CY - Comp','FYear':'2019'] - ['LY - Comp','FYear':'2018'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Non-Comp','Var to Last Year 2019'] = ['CY - Non-Comp','FYear':'2019'] - ['LY - Non-Comp','FYear':'2018'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - New','Var to Last Year 2019 %'] = (['CY - New','FYear':'2019'] - ['LY - New','FYear':'2018']) / ['LY - New','FYear':'2018'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Comp','Var to Last Year 2019 %'] = (['CY - Comp','FYear':'2019'] - ['LY - Comp','FYear':'2018']) / ['LY - Comp','FYear':'2018'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Non-Comp','Var to Last Year 2019 %'] = (['CY - Non-Comp','FYear':'2019'] - ['LY - Non-Comp','FYear':'2018']) / ['LY - Non-Comp','FYear':'2018'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Closed','Var to Last Year 2019 %'] = (['CY - Closed','FYear':'2019'] - ['LY - Closed','FYear':'2018']) / ['LY - Closed','FYear':'2018'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - New','Var to Last Year 2018'] = ['CY - New','FYear':'2018'] - ['LY - New','FYear':'2017'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Closed','Var to Last Year 2018'] = ['CY - Closed','FYear':'2018'] - ['LY - Closed','FYear':'2017'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Comp','Var to Last Year 2018'] = ['CY - Comp','FYear':'2018'] - ['LY - Comp','FYear':'2017'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Non-Comp','Var to Last Year 2018'] = ['CY - Non-Comp','FYear':'2018'] - ['LY - Non-Comp','FYear':'2017'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - New','Var to Last Year 2018 %'] = (['CY - New','FYear':'2018'] - ['LY - New','FYear':'2017']) / ['LY - New','FYear':'2017'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Comp','Var to Last Year 2018 %'] = (['CY - Comp','FYear':'2018'] - ['LY - Comp','FYear':'2017']) / ['LY - Comp','FYear':'2017'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Non-Comp','Var to Last Year 2018 %'] = (['CY - Non-Comp','FYear':'2018'] - ['LY - Non-Comp','FYear':'2017']) / ['LY - Non-Comp','FYear':'2017'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Closed','Var to Last Year 2018 %'] = (['CY - Closed','FYear':'2018'] - ['LY - Closed','FYear':'2017']) / ['LY - Closed','FYear':'2017'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - New','Var to Last Year 2017'] = ['CY - New','FYear':'2017'] - ['LY - New','FYear':'2016'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Closed','Var to Last Year 2017'] = ['CY - Closed','FYear':'2017'] - ['LY - Closed','FYear':'2016'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Comp','Var to Last Year 2017'] = ['CY - Comp','FYear':'2017'] - ['LY - Comp','FYear':'2016'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Non-Comp','Var to Last Year 2017'] = ['CY - Non-Comp','FYear':'2017'] - ['LY - Non-Comp','FYear':'2016'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - New','Var to Last Year 2017 %'] = (['CY - New','FYear':'2017'] - ['LY - New','FYear':'2016']) / ['LY - New','FYear':'2016'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Comp','Var to Last Year 2017 %'] = (['CY - Comp','FYear':'2017'] - ['LY - Comp','FYear':'2016']) / ['LY - Comp','FYear':'2016'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Non-Comp','Var to Last Year 2017 %'] = (['CY - Non-Comp','FYear':'2017'] - ['LY - Non-Comp','FYear':'2016']) / ['LY - Non-Comp','FYear':'2016'];;;;1;;01.07.2019. 04:06:28 pm
+['CY - Closed','Var to Last Year 2017 %'] = (['CY - Closed','FYear':'2017'] - ['LY - Closed','FYear':'2016']) / ['LY - Closed','FYear':'2016'];;;;1;;01.07.2019. 04:06:28 pm

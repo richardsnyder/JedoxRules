@@ -1,0 +1,6 @@
+################################################
+## Jedox Web - Rule Editor Export
+## v20.3.2
+## Definition;Comment;Query;Template;Active;Extern ID;Timestamp
+################################################
+['Retail Measure':'Gross Profit % of Net Sales'] = ['Retail Measure':'Gross Profit'] / ['Retail Measure':'Net Sales'];;;;1;;19.06.2018. 01:27:04 pm

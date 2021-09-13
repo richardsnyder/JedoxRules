@@ -1,0 +1,63 @@
+################################################
+## Jedox Web - Rule Editor Export
+## v20.3.2
+## Definition;Comment;Query;Template;Active;Extern ID;Timestamp
+################################################
+['Version':'Var to Budget'] = (['Actual'] - ['Budget']) * VALUE(PALO.DATA("PAS-FINANCIALS","#_Payroll Cost Accounts","Var Factor",!'Payroll Cost Accounts'));;;;1;;30.07.2018. 11:15:34 am
+['Version':'Var to Budget %'] = ['Var to Budget'] / ['Version':'Actual'];;;;1;;29.03.2016. 04:20:20 pm
+['Version':'Var to Forecast'] = ['Actual'] - ['Forecast'];;;;1;;29.03.2016. 04:20:20 pm
+['Version':'Var to Forecast %'] = ['Version':'Var to Forecast'] / ['Version':'Actual'];;;;1;;29.03.2016. 04:20:20 pm
+['Var to Target'] = (['Actual'] - ['Target']) * VALUE(PALO.DATA("PAS-FINANCIALS","#_Payroll Cost Accounts","Var Factor",!'Payroll Cost Accounts'));* PALO.DATA("PAS-FINANCIALS","#_Payroll Cost Accounts","Var Factor",!'Payroll Cost Accounts');;;1;;22.02.2017. 02:48:29 pm
+['Var to Target %'] = ['Var to Target'] / ['Target'];;;;1;;08.04.2019. 01:06:18 pm
+['Var to Forecast_000'] = ['Actual'] - ['Forecast_000'];;;;1;;29.03.2016. 04:20:20 pm
+['Var to Forecast_000 %'] = ['Var to Forecast_000'] / ['Actual'];;;;1;;29.03.2016. 04:20:20 pm
+['Var to Forecast_Jul'] = ['Actual'] - ['Forecast_Jul'];;;;1;;29.03.2016. 04:20:20 pm
+['Var to Forecast_Jul %'] = ['Var to Forecast_Jul'] / ['Actual'];;;;1;;29.03.2016. 04:20:20 pm
+['Var to Forecast_Aug'] = ['Actual'] - ['Forecast_Aug'];;;;1;;29.03.2016. 04:20:20 pm
+['Var to Forecast_Aug %'] = ['Var to Forecast_Aug'] / ['Actual'];;;;1;;29.03.2016. 04:20:21 pm
+['Var to Forecast_Sep'] = ['Actual'] - ['Forecast_Sep'];;;;1;;29.03.2016. 04:20:21 pm
+['Var to Forecast_Sep %'] = ['Var to Forecast_Sep'] / ['Actual'];;;;1;;29.03.2016. 04:20:21 pm
+['Var to Forecast_Oct'] = ['Actual'] - ['Forecast_Oct'];;;;1;;29.03.2016. 04:20:21 pm
+['Var to Forecast_Oct %'] = ['Var to Forecast_Oct'] / ['Actual'];;;;1;;29.03.2016. 04:20:21 pm
+['Var to Forecast_Nov'] = ['Actual'] - ['Forecast_Nov'];;;;1;;29.03.2016. 04:20:21 pm
+['Var to Forecast_Nov %'] = ['Var to Forecast_Nov'] / ['Actual'];;;;1;;29.03.2016. 04:20:21 pm
+['Var to Forecast_Dec'] = ['Actual'] - ['Forecast_Dec'];;;;1;;29.03.2016. 04:20:21 pm
+['Var to Forecast_Dec %'] = ['Var to Forecast_Dec'] / ['Actual'];;;;1;;29.03.2016. 04:20:21 pm
+['Var to Forecast_Jan'] = ['Actual'] - ['Forecast_Jan'];;;;1;;29.03.2016. 04:20:21 pm
+['Var to Forecast_Jan %'] = ['Var to Forecast_Jan'] / ['Actual'];;;;1;;29.03.2016. 04:20:21 pm
+['Var to Forecast_Feb'] = ['Actual'] - ['Forecast_Feb'];;;;1;;29.03.2016. 04:20:21 pm
+['Var to Forecast_Feb %'] = ['Var to Forecast_Feb'] / ['Actual'];;;;1;;29.03.2016. 04:20:21 pm
+['Var to Forecast_Mar'] = ['Actual'] - ['Forecast_Mar'];;;;1;;29.03.2016. 04:20:21 pm
+['Var to Forecast_Mar %'] = ['Var to Forecast_Mar'] / ['Actual'];;;;1;;29.03.2016. 04:20:21 pm
+['Var to Forecast_Apr'] = ['Actual'] - ['Forecast_Apr'];;;;1;;29.03.2016. 04:20:22 pm
+['Var to Forecast_Apr %'] = ['Var to Forecast_Apr'] / ['Actual'];;;;1;;29.03.2016. 04:20:22 pm
+['Var to Forecast_May'] = ['Actual'] - ['Forecast_May'];;;;1;;29.03.2016. 04:20:22 pm
+['Var to Forecast_May %'] = ['Var to Forecast_May'] / ['Actual'];;;;1;;29.03.2016. 04:20:22 pm
+['Var Forecast_Jul to Budget'] = ['Forecast_Jul'] - ['Budget'];;;;1;;29.03.2016. 04:20:22 pm
+['Var Forecast_Jul to Budget %'] = ['Var Forecast_Jul to Budget'] / ['Budget'];;;;1;;29.03.2016. 04:20:22 pm
+['Var Forecast_Aug to Budget'] = ['Forecast_Aug'] - ['Budget'];;;;1;;29.03.2016. 04:20:22 pm
+['Var Forecast_Aug to Budget %'] = ['Var Forecast_Aug to Budget'] / ['Budget'];;;;1;;29.03.2016. 04:20:22 pm
+['Var Forecast_Sep to Budget'] = ['Forecast_Sep'] - ['Budget'];;;;1;;29.03.2016. 04:20:22 pm
+['Var Forecast_Sep to Budget %'] = ['Var Forecast_Sep to Budget'] / ['Budget'];;;;1;;29.03.2016. 04:20:22 pm
+['Var Forecast_Oct to Budget'] = ['Forecast_Oct'] - ['Budget'];;;;1;;29.03.2016. 04:20:22 pm
+['Var Forecast_Oct to Budget %'] = ['Var Forecast_Oct to Budget'] / ['Budget'];;;;1;;29.03.2016. 04:20:23 pm
+['Var Forecast_Nov to Budget'] = ['Forecast_Nov'] - ['Budget'];;;;1;;29.03.2016. 04:20:23 pm
+['Var Forecast_Nov to Budget %'] = ['Var Forecast_Nov to Budget'] / ['Budget'];;;;1;;29.03.2016. 04:20:23 pm
+['Var Forecast_Dec to Budget'] = ['Forecast_Dec'] - ['Budget'];;;;1;;29.03.2016. 04:20:23 pm
+['Var Forecast_Dec to Budget %'] = ['Var Forecast_Dec to Budget'] / ['Budget'];;;;1;;29.03.2016. 04:20:23 pm
+['Var Forecast_Jan to Budget'] = ['Forecast_Jan'] - ['Budget'];;;;1;;29.03.2016. 04:20:23 pm
+['Var Forecast_Jan to Budget %'] = ['Var Forecast_Jan to Budget'] / ['Budget'];;;;1;;29.03.2016. 04:20:23 pm
+['Var Forecast_Feb to Budget'] = ['Forecast_Feb'] - ['Budget'];;;;1;;29.03.2016. 04:20:23 pm
+['Var Forecast_Feb to Budget %'] = ['Var Forecast_Feb to Budget'] / ['Budget'];;;;1;;29.03.2016. 04:20:23 pm
+['Var Forecast_Mar to Budget'] = ['Forecast_Mar'] - ['Budget'];;;;1;;29.03.2016. 04:20:23 pm
+['Var Forecast_Mar to Budget %'] = ['Var Forecast_Mar to Budget'] / ['Budget'];;;;1;;29.03.2016. 04:20:23 pm
+['Var Forecast_Apr to Budget'] = ['Forecast_Apr'] - ['Budget'];;;;1;;29.03.2016. 04:20:23 pm
+['Var Forecast_Apr to Budget %'] = ['Var Forecast_Apr to Budget'] / ['Budget'];;;;1;;29.03.2016. 04:20:23 pm
+['Var Forecast_May to Budget'] = ['Forecast_May'] - ['Budget'];;;;1;;29.03.2016. 04:20:23 pm
+['Casual Mix (Hrs)','EmployeeType NA'] = ['Casual','Payroll Cost Reporting Hours Excl Personal Leave'] / ['Retail Wages','Payroll Cost Reporting Hours Excl Personal Leave'];;;;1;;22.02.2017. 02:03:39 pm
+['Ave Labour Cost Per Hour'] = ['Payroll Cost Reporting $ Excl Personal Leave'] / ['Payroll Cost Reporting Hours Excl Personal Leave'];;;;1;;22.02.2017. 03:27:14 pm
+['Var Rate $ (Actual)'] = ['Ave Labour Cost Per Hour','Var to Target'] * ['Payroll Cost Reporting Hours Excl Personal Leave'];;;;1;;24.02.2017. 11:25:59 am
+['Var Hrs $ (Target)'] = ['Payroll Cost Reporting Hours Excl Personal Leave','Var to Target'] * ['Ave Labour Cost Per Hour'];;;;1;;23.02.2017. 08:26:39 am
+['% to Sales'] = ['Payroll Cost Reporting $ Excl Personal Leave'] / ['Payroll Cost Accounts':'Net Sales'];;;;1;;24.02.2017. 11:21:38 am
+['Sales / Hr'] = ['Payroll Cost Accounts':'Net Sales'] / ['Payroll Cost Reporting Hours Excl Personal Leave'];;;;1;;24.02.2017. 11:37:23 am
+['Payroll Cost Accounts':'Traffic Conversion'] = ['Payroll Cost Accounts':'Number of Transactions'] / ['Payroll Cost Accounts':'Traffic Count'];;;;1;;16.01.2018. 09:36:23 am
