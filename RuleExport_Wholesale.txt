@@ -1,11 +1,11 @@
 ################################################
 ## Jedox Web - Rule Editor Export
-## v20.3.2
+## v22.2.8
 ## Definition;Comment;Query;Template;Active;Extern ID;Timestamp
 ################################################
-['Wholesale Measures':'Gross Profit %'] = ['Wholesale Measures':'Gross Profit'] / ['Wholesale Measures':'Net Sales'];;;;1;;08.01.2018. 10:29:41 am
-['Wholesale Measures':'ASP'] = ['Wholesale Measures':'Net Sales'] / ['Wholesale Measures':'Units'];;;;1;;09.01.2018. 08:18:53 am
-['Wholesale Measures':'Ave Cost'] = ['Wholesale Measures':'COS'] / ['Wholesale Measures':'Units'];;;;1;;20.01.2021. 09:22:49 am
-['Wholesale Customer':'Eliminations JETS UK','Wholesale Measures':'COS'] = B:['Wholesale Customer':'JETS - Inter Company','Wholesale Measures':'Gross Profit'] * -1;;;;1;;12.02.2018. 05:05:47 pm
-['Wholesale Customer':'Eliminations JETS Total','Wholesale Measures':'Gross Sales'] = B:['Wholesale Customer':'JETS - Inter Company','Wholesale Measures':'Gross Sales'] * -1;;;;1;;12.02.2018. 04:55:01 pm
-['Wholesale Customer':'Eliminations JETS Total','Wholesale Measures':'COS'] = B:['Wholesale Customer':'JETS - Inter Company','Wholesale Measures':'COS'] * -1;;;;1;;12.02.2018. 04:55:16 pm
+['Wholesale Measures':'Gross Profit %'] = ['Wholesale Measures':'Gross Profit'] / ['Wholesale Measures':'Net Sales'];;;;1;;08.01.2018. 10:29:41 AM
+['Wholesale Measures':'ASP'] = ['Wholesale Measures':'Net Sales'] / ['Wholesale Measures':'Units'];;;;1;;09.01.2018. 08:18:53 AM
+['Wholesale Measures':'Ave Cost'] = ['Wholesale Measures':'COS'] / ['Wholesale Measures':'Units'];;;;1;;20.01.2021. 09:22:49 AM
+['Wholesale Customer':'Eliminations JETS UK','Wholesale Measures':'COS'] = B:['Wholesale Customer':'JETS - Inter Company','Wholesale Measures':'Gross Profit'] * -1;;;;0;;12.02.2018. 05:05:47 PM
+['Wholesale Customer':'Eliminations JETS Total','Wholesale Measures':'Gross Sales'] = B:['Wholesale Customer':'JETS - Inter Company','Wholesale Measures':'Gross Sales'] * -1;;;;0;;12.02.2018. 04:55:01 PM
+['Wholesale Customer':'Eliminations JETS Total','Wholesale Measures':'COS'] = B:['Wholesale Customer':'JETS - Inter Company','Wholesale Measures':'COS'] * -1;;;;0;;12.02.2018. 04:55:16 PM

@@ -1,44 +1,44 @@
 ################################################
 ## Jedox Web - Rule Editor Export
-## v20.3.2
+## v22.2.8
 ## Definition;Comment;Query;Template;Active;Extern ID;Timestamp
 ################################################
-['FYear':'Please select a year'] = STET();;;;1;;25.09.2015. 11:19:34 am
-['Period':'Please select a period'] = STET();;;;1;;25.09.2015. 11:21:34 am
-['Period':'Base Periods'] = STET();;;;1;;25.09.2015. 11:22:36 am
-['Period':'P00'] = STET();;;;1;;25.09.2015. 11:20:09 am
-['Period Start'] = C:0;;;;1;;24.09.2015. 11:50:24 am
-['Period End'] = C:0;;;;1;;24.09.2015. 11:50:31 am
-['Period Start XL'] = C:0;;;;1;;24.09.2015. 11:50:37 am
-['Period End XL'] = C:0;;;;1;;24.09.2015. 11:50:45 am
-['Period':'YTD Periods'] = STET();;;;1;;25.09.2015. 11:31:19 am
-['Period':'Jul YTD'] = STET();;;;1;;25.09.2015. 11:30:33 am
-['Period':'Aug YTD'] = STET();;;;1;;25.09.2015. 11:31:40 am
-['Period':'Sep YTD'] = STET();;;;1;;25.09.2015. 11:33:56 am
-['Period':'Oct YTD'] = STET();;;;1;;25.09.2015. 11:34:21 am
-['Period':'Nov YTD'] = STET();;;;1;;25.09.2015. 11:34:37 am
-['Period':'Dec YTD'] = STET();;;;1;;25.09.2015. 11:34:53 am
-['Period':'Jan YTD'] = STET();;;;1;;25.09.2015. 11:35:05 am
-['Period':'Feb YTD'] = STET();;;;1;;25.09.2015. 11:35:17 am
-['Period':'Mar YTD'] = STET();;;;1;;25.09.2015. 11:35:37 am
-['Period':'Apr YTD'] = STET();;;;1;;25.09.2015. 11:35:48 am
-['Period':'May YTD'] = STET();;;;1;;25.09.2015. 11:36:01 am
-['Period':'Jun YTD'] = STET();;;;1;;25.09.2015. 11:36:12 am
-['Period':'YTG Periods'] = STET();;;;1;;25.09.2015. 11:36:28 am
-['Period':'Jul YTG'] = STET();;;;1;;25.09.2015. 11:39:48 am
-['Period':'Aug YTG'] = STET();;;;1;;25.09.2015. 11:39:59 am
-['Period':'Sep YTG'] = STET();;;;1;;25.09.2015. 11:40:10 am
-['Period':'Oct YTG'] = STET();;;;1;;25.09.2015. 11:40:27 am
-['Period':'Nov YTG'] = STET();;;;1;;25.09.2015. 11:40:40 am
-['Period':'Dec YTG'] = STET();;;;1;;25.09.2015. 11:41:07 am
-['Period':'Jan YTG'] = STET();;;;1;;25.09.2015. 11:44:04 am
-['Period':'Feb YTG'] = STET();;;;1;;25.09.2015. 11:44:16 am
-['Period':'Mar YTG'] = STET();;;;1;;25.09.2015. 11:44:27 am
-['Period':'Apr YTG'] = STET();;;;1;;25.09.2015. 11:44:38 am
-['Period':'May YTG'] = STET();;;;1;;25.09.2015. 11:44:48 am
-['Period':'Jun YTG'] = STET();;;;1;;25.09.2015. 11:18:35 am
-['Period Start'] = B:DATE(IF(PALO.DATA("PAS-FINANCIALS","#_Period","Period Value",!'Period') <= 6,VALUE(!'FYear') - 1,VALUE(!'FYear')),VALUE(PALO.DATA("PAS-FINANCIALS","#_Period","Month Value",!'Period')),1) / 86400;;;;1;;15.12.2014. 02:53:57 pm
-['Period End'] = B:(DATE(IF(PALO.DATA("PAS-FINANCIALS","#_Period","Period Value",!'Period') <= 6,VALUE(!'FYear') - 1,VALUE(!'FYear')),VALUE(PALO.DATA("PAS-FINANCIALS","#_Period","Month Value",!'Period')) + 1,1) - 86400) / 86400;;;;1;;15.12.2014. 02:54:36 pm
-['Period Start XL'] = B:DATE(IF(PALO.DATA("PAS-FINANCIALS","#_Period","Period Value",!'Period') <= 6,VALUE(!'FYear') - 1,VALUE(!'FYear')),VALUE(PALO.DATA("PAS-FINANCIALS","#_Period","Month Value",!'Period')),1) / 86400 + 25569;;;;1;;22.09.2015. 04:49:22 pm
-['Period End XL'] = B:(DATE(IF(PALO.DATA("PAS-FINANCIALS","#_Period","Period Value",!'Period') <= 6,VALUE(!'FYear') - 1,VALUE(!'FYear')),VALUE(PALO.DATA("PAS-FINANCIALS","#_Period","Month Value",!'Period')) + 1,1) - 86400) / 86400 + 25569;;;;1;;22.09.2015. 04:54:06 pm
-['Period LTM'] = B:CONCATENATE(CONCATENATE(PALO.DATA("PAS-FINANCIALS","#_Period","Name",!'Period'),"-"),IF(PALO.DATA("PAS-FINANCIALS","#_Period","Period Value",!'Period') < 7,PALO.DATA("PAS-FINANCIALS","#_FYear","Previous Year",!'FYear'),!'FYear'));['Period LTM'] = B:CONCATENATE(CONCATENATE(PALO.DATA("PAS-FINANCIALS","#_Period","Name",!'Period'),"-"),!'FYear');;;1;;02.11.2015. 11:48:42 am
+['FYear':'Please select a year'] = STET();;;;1;;25.09.2015. 11:19:34 AM
+['Period':'Please select a period'] = STET();;;;1;;25.09.2015. 11:21:34 AM
+['Period':'Base Periods'] = STET();;;;1;;25.09.2015. 11:22:36 AM
+['Period':'P00'] = STET();;;;1;;25.09.2015. 11:20:09 AM
+['Period Start'] = C:0;;;;1;;24.09.2015. 11:50:24 AM
+['Period End'] = C:0;;;;1;;24.09.2015. 11:50:31 AM
+['Period Start XL'] = C:0;;;;1;;24.09.2015. 11:50:37 AM
+['Period End XL'] = C:0;;;;1;;24.09.2015. 11:50:45 AM
+['Period':'YTD Periods'] = STET();;;;1;;25.09.2015. 11:31:19 AM
+['Period':'Jul YTD'] = STET();;;;1;;25.09.2015. 11:30:33 AM
+['Period':'Aug YTD'] = STET();;;;1;;25.09.2015. 11:31:40 AM
+['Period':'Sep YTD'] = STET();;;;1;;25.09.2015. 11:33:56 AM
+['Period':'Oct YTD'] = STET();;;;1;;25.09.2015. 11:34:21 AM
+['Period':'Nov YTD'] = STET();;;;1;;25.09.2015. 11:34:37 AM
+['Period':'Dec YTD'] = STET();;;;1;;25.09.2015. 11:34:53 AM
+['Period':'Jan YTD'] = STET();;;;1;;25.09.2015. 11:35:05 AM
+['Period':'Feb YTD'] = STET();;;;1;;25.09.2015. 11:35:17 AM
+['Period':'Mar YTD'] = STET();;;;1;;25.09.2015. 11:35:37 AM
+['Period':'Apr YTD'] = STET();;;;1;;25.09.2015. 11:35:48 AM
+['Period':'May YTD'] = STET();;;;1;;25.09.2015. 11:36:01 AM
+['Period':'Jun YTD'] = STET();;;;1;;25.09.2015. 11:36:12 AM
+['Period':'YTG Periods'] = STET();;;;1;;25.09.2015. 11:36:28 AM
+['Period':'Jul YTG'] = STET();;;;1;;25.09.2015. 11:39:48 AM
+['Period':'Aug YTG'] = STET();;;;1;;25.09.2015. 11:39:59 AM
+['Period':'Sep YTG'] = STET();;;;1;;25.09.2015. 11:40:10 AM
+['Period':'Oct YTG'] = STET();;;;1;;25.09.2015. 11:40:27 AM
+['Period':'Nov YTG'] = STET();;;;1;;25.09.2015. 11:40:40 AM
+['Period':'Dec YTG'] = STET();;;;1;;25.09.2015. 11:41:07 AM
+['Period':'Jan YTG'] = STET();;;;1;;25.09.2015. 11:44:04 AM
+['Period':'Feb YTG'] = STET();;;;1;;25.09.2015. 11:44:16 AM
+['Period':'Mar YTG'] = STET();;;;1;;25.09.2015. 11:44:27 AM
+['Period':'Apr YTG'] = STET();;;;1;;25.09.2015. 11:44:38 AM
+['Period':'May YTG'] = STET();;;;1;;25.09.2015. 11:44:48 AM
+['Period':'Jun YTG'] = STET();;;;1;;25.09.2015. 11:18:35 AM
+['Period Start'] = B:DATE(IF(PALO.DATA("PAS-FINANCIALS","#_Period","Period Value",!'Period') <= 6,VALUE(!'FYear') - 1,VALUE(!'FYear')),VALUE(PALO.DATA("PAS-FINANCIALS","#_Period","Month Value",!'Period')),1) / 86400;;;;1;;15.12.2014. 02:53:57 PM
+['Period End'] = B:(DATE(IF(PALO.DATA("PAS-FINANCIALS","#_Period","Period Value",!'Period') <= 6,VALUE(!'FYear') - 1,VALUE(!'FYear')),VALUE(PALO.DATA("PAS-FINANCIALS","#_Period","Month Value",!'Period')) + 1,1) - 86400) / 86400;;;;1;;15.12.2014. 02:54:36 PM
+['Period Start XL'] = B:DATE(IF(PALO.DATA("PAS-FINANCIALS","#_Period","Period Value",!'Period') <= 6,VALUE(!'FYear') - 1,VALUE(!'FYear')),VALUE(PALO.DATA("PAS-FINANCIALS","#_Period","Month Value",!'Period')),1) / 86400 + 25569;;;;1;;22.09.2015. 04:49:22 PM
+['Period End XL'] = B:(DATE(IF(PALO.DATA("PAS-FINANCIALS","#_Period","Period Value",!'Period') <= 6,VALUE(!'FYear') - 1,VALUE(!'FYear')),VALUE(PALO.DATA("PAS-FINANCIALS","#_Period","Month Value",!'Period')) + 1,1) - 86400) / 86400 + 25569;;;;1;;22.09.2015. 04:54:06 PM
+['Period LTM'] = B:CONCATENATE(CONCATENATE(PALO.DATA("PAS-FINANCIALS","#_Period","Name",!'Period'),"-"),IF(PALO.DATA("PAS-FINANCIALS","#_Period","Period Value",!'Period') < 7,PALO.DATA("PAS-FINANCIALS","#_FYear","Previous Year",!'FYear'),!'FYear'));['Period LTM'] = B:CONCATENATE(CONCATENATE(PALO.DATA("PAS-FINANCIALS","#_Period","Name",!'Period'),"-"),!'FYear');;;1;;02.11.2015. 11:48:42 AM

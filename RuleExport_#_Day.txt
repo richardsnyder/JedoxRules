@@ -1,0 +1,12 @@
+################################################
+## Jedox Web - Rule Editor Export
+## v22.2.8
+## Definition;Comment;Query;Template;Active;Extern ID;Timestamp
+################################################
+['ExcelDate'] = C:0;;;;1;;26.10.2017. 09:50:39 AM
+['ExcelDate'] = B:IF(PALO.DATA("PAS-Financials","#_Day","NEXT",!'Day') == "",0,DATE(VALUE(MID(PALO.DATA("PAS-Financials","#_Day","NEXT",!'Day'),1,4)),VALUE(MID(PALO.DATA("PAS-Financials","#_Day","Next",!'Day'),5,2)),VALUE(MID(PALO.DATA("PAS-Financials","#_Day","Next",!'Day'),7,2)) - 1) / 86400 + 25569);;;;1;;26.10.2017. 09:50:39 AM
+['ActualDay'] = C:0;;;;1;;26.10.2017. 09:50:39 AM
+['ActualDay'] = B:IF(AND(PALO.DATA("PAS-Financials","#_Day","NEXT",!'Day') != "",['RetailYear'] < PALO.DATA("PAS-Financials","#_Parameter","Item","CurrYearETL")),1,IF(AND(['RetailYear'] == PALO.DATA("PAS-Financials","#_Parameter","Item","CurrYearETL"),['RetailWeekValue'] <= PALO.DATA("PAS-Financials","#_Parameter","ItemN","Retail Actualise Week")),1,0));;;;1;;26.10.2017. 09:50:39 AM
+['RetailWeekValue'] = C:0;;;;1;;26.10.2017. 09:50:39 AM
+['ForecastDay'] = C:0;;;;1;;26.10.2017. 09:50:39 AM
+['ForecastDay'] = B:IF(AND(PALO.DATA("PAS-Financials","#_Day","NEXT",!'Day') != "",['RetailYear'] < PALO.DATA("PAS-Financials","#_Parameter","Item","CurrYearETL")),0,IF(AND(['RetailYear'] == PALO.DATA("PAS-Financials","#_Parameter","Item","CurrYearETL"),['RetailWeekValue'] >= PALO.DATA("PAS-Financials","#_Parameter","ItemN","Retail Forecast Week")),1,0));;;;1;;26.10.2017. 09:50:39 AM

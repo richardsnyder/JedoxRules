@@ -1,0 +1,8 @@
+################################################
+## Jedox Web - Rule Editor Export
+## v22.2.8
+## Definition;Comment;Query;Template;Active;Extern ID;Timestamp
+################################################
+['ActualWeek'] = B:IF(AND(['Week Value'] > 0,['Week Value'] <= PALO.DATA("PAS-FINANCIALS","#_Parameter","ItemN","Retail Actualise Week")),1,0);;;;1;;26.10.2017. 09:50:38 AM
+['Week Value'] = C:0;;;;1;;26.10.2017. 09:50:38 AM
+['ForecastWeek'] = B:IF(AND(['Week Value'] > 0,['Week Value'] >= PALO.DATA("PAS-FINANCIALS","#_Parameter","ItemN","Retail Forecast Week")),1,0);;;;1;;26.10.2017. 09:50:38 AM

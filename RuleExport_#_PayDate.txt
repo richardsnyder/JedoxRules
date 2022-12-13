@@ -1,10 +1,10 @@
 ################################################
 ## Jedox Web - Rule Editor Export
-## v20.3.2
+## v22.2.8
 ## Definition;Comment;Query;Template;Active;Extern ID;Timestamp
 ################################################
-['ActualWeek'] = B:IF(AND(['Retail Week Value'] > 0,['Retail Week Value'] < PALO.DATA("PAS-FINANCIALS","#_Parameter","ItemN","Retail Actualise Week"),VALUE(PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","CurrYearETL")) == ['Retail Year']),1,0);['ActualWeek'] = B:IF(AND(['Retail Week Value'] > 0,['Retail Week Value'] <= PALO.DATA("PAS-FINANCIALS","#_Parameter","ItemN","Retail Actualise Week")),1,0);;;1;;26.10.2017. 09:50:39 am
-['ActualWeek'] = C:0;;;;1;;26.10.2017. 09:50:39 am
-['Retail Week Value'] = C:0;;;;1;;26.10.2017. 09:50:39 am
-['ForecastWeek'] = B:IF(AND(['Retail Week Value'] > 0,['Retail Week Value'] >= PALO.DATA("PAS-FINANCIALS","#_Parameter","ItemN","Retail Actualise Week"),VALUE(PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","CurrYearETL")) == ['Retail Year']),1,0);;;;1;;26.10.2017. 09:50:39 am
-['ForecastWeek'] = C:0;;;;1;;26.10.2017. 09:50:39 am
+['ActualWeek'] = B:IF(AND(['Retail Week Value'] > 0,['Retail Week Value'] < PALO.DATA("PAS-FINANCIALS","#_Parameter","ItemN","Retail Actualise Week"),VALUE(PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","CurrYearETL")) == ['Retail Year']),1,0);['ActualWeek'] = B:IF(AND(['Retail Week Value'] > 0,['Retail Week Value'] <= PALO.DATA("PAS-FINANCIALS","#_Parameter","ItemN","Retail Actualise Week")),1,0);;;1;;26.10.2017. 09:50:39 AM
+['ActualWeek'] = C:0;;;;1;;26.10.2017. 09:50:39 AM
+['Retail Week Value'] = C:0;;;;1;;26.10.2017. 09:50:39 AM
+['ForecastWeek'] = B:IF(AND(['Retail Week Value'] > 0,['Retail Week Value'] >= PALO.DATA("PAS-FINANCIALS","#_Parameter","ItemN","Retail Actualise Week"),VALUE(PALO.DATA("PAS-FINANCIALS","#_Parameter","Item","CurrYearETL")) == ['Retail Year']),1,0);;;;1;;26.10.2017. 09:50:39 AM
+['ForecastWeek'] = C:0;;;;1;;26.10.2017. 09:50:39 AM
